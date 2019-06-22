@@ -222,7 +222,7 @@ class Adam(Optimizer):
                 self.accumulators[k] = np.zeros(v.shape)
         for k in list(xs.keys()):
             #########################################
-            # code here
+         
 
             self.moments[k] = self.beta_1 * self.moments[k] + (1 - self.beta_1) * xs_grads[k]
 
