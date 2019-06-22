@@ -1,9 +1,4 @@
-# cs5242
-CS5242 Assignments of NUS
 
-## requirements
-
-We have tested the notebook with the following dependencies.
 
 ### python version
 - python3
