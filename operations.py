@@ -183,7 +183,7 @@ class conv(operation):
         output = None
 
         #########################################
-        # code here
+
         
         batch, _, in_height, in_width = input.shape
 
@@ -234,7 +234,7 @@ class conv(operation):
         b_grad = None
 
         #########################################
-        # code here
+
         
        
         
@@ -317,7 +317,7 @@ class pool(operation):
         output = None
 
         #########################################
-        # code here
+   
         
         
         p=pad 
@@ -389,8 +389,7 @@ class pool(operation):
         in_grad = None
 
         #########################################
-        # code here
-        
+     
         p=pad 
         
         st=stride 
@@ -485,7 +484,7 @@ class dropout(operation):
         """
         if self.training:
             #########################################
-            # code here
+        
             
             in_grad = out_grad * self.mask / (1 - self.rate)
            
